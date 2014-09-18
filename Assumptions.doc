@@ -1,0 +1,21 @@
+
+Project Assumptions
+
+The following assumptions were made in preparing the Project Plan:
+
+-	Only registered users can access M2SCS (My Metro Smart Card System).
+-	New users can be registered in the system with a new user-id (simulating an issual of smart card).
+-	New users should recharge with a minimum amount of 100 INR during registration.
+-	Commuters should have minimum balance to travel up to 40 stations in order to avail the train journey.
+-	If the commuter having minimum balance travels beyond his eligible balance/ stations, the corresponding amount equivalent to the stations travelled would be deducted from the existing balance and the remaining would be saved in negative balance (which he will have to recharge before the next journey). The card balance is automatically updated during the journey/recharge.
+
+Additional Functionalities:
+
+-	The user can view his current balance by entering his user-id.
+-	The history log is created for each user, which stores the last 5 travel information. The data is updated each time the user travels using the smartcard.
+-	The card can be recharged with a minimum amount 100 INR and maximum amount 10 lakh
+-	The card balance should not exceed 10 lakh
+-	Validation is done for lost smartcards whenever a commuter gives the details for travel to view history or view balance
+-	Mail validation is done on user registration. The mail id should begin with an alphabet followed by a domain name.
+
+	
